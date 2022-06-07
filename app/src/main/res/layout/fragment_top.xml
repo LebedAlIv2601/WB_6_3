@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="16dp"
+    tools:context=".TopFragment">
+
+    <ScrollView
+        android:id="@+id/pi_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/pi_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="3,1415926535"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            />
+
+
+    </ScrollView>
+
+
+
+</FrameLayout>
