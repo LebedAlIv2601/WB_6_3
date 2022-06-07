@@ -52,8 +52,10 @@ class BottomFragment : Fragment() {
         Log.e("Thread", Thread.currentThread().toString())
         while (isCountingTime) {
             delay(1000L)
-            val newTime = time + 1.second
-            emit(newTime)
+            if(isCountingTime) {
+                val newTime = time + 1.second
+                emit(newTime)
+            }
         }
     }
 
